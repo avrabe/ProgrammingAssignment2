@@ -29,6 +29,11 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 #' Calculate the inverse of a matrix. Use the cached version if possible.
+#' @examples
+#' x <- matrix(c(2,1,5,3),nrow=2,ncol=2)
+#' z <- makeCacheMatrix(x)
+#' cacheSolve(z)
+#' cacheSolve(z)
 #' 
 #' @param x A matrix
 #' @return The inversed matrix. Print if a cached result is used.

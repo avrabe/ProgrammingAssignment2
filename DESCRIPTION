@@ -1,0 +1,6 @@
+Package: cachematrix
+Version: 0.1
+Date: 2014-12-19
+Title: Provide functions which can use a cache when calculating the inverse of a matrix.
+Depends: R (>= 1.8.0), RUnit
+Suggests: RUnit

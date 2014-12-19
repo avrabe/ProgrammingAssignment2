@@ -1,4 +1,4 @@
-##  
+##  Provide functions which can use a cache when calculating the inverse of a matrix.
 ##
 ##  -- Corresponding unit tests --
 ##  install.package('RUnit')

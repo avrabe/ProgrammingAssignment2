@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #' cacheSolve(z)
 #' 
 #' @param x A matrix
-#' @return The inversed matrix. Print if a cached result is used.
+#' @return The inversed matrix. Print a message if a cached result is used.
 cacheSolve <- function(x, ...) {
   ## Return a matrix that is the inverse of 'x'
   m <- x$getsolve()
